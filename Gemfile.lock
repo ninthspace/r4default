@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ZenTest (4.9.5)
     actionmailer (4.0.2)
       actionpack (= 4.0.2)
       mail (~> 2.5.4)
@@ -27,6 +28,9 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.1)
     atomic (1.1.14)
+    autotest-growl (0.2.16)
+    autotest-rails (4.2.1)
+      ZenTest (~> 4.5)
     builder (3.1.4)
     capybara (2.2.1)
       mime-types (>= 1.16)
@@ -143,6 +147,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autotest-growl
+  autotest-rails
   capybara
   coffee-rails (~> 4.0.0)
   database_cleaner
